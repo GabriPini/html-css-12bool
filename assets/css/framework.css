@@ -5,11 +5,7 @@
     box-sizing: border-box;
 }
 /* regola debug per visualizzare colonne */
-.debug [class^="col"]{
-    background-color: rgb(145, 10, 10);
-    border: 1px solid white;
-    height: 200px;
-}
+
 
 .img-fluid{
     max-width: 100%;
@@ -23,7 +19,13 @@
 .text-right {
     text-align: right;
 }
+.lg{
+    height: 60px;
+}
 
+.sm{
+    height: 40px;
+}
 /* typografy */
 .display-1{
     font-size: 4rem;
@@ -38,16 +40,23 @@
 }
 
 /* utility spaces */
-.p-1{
-    padding: 1rem;
+.p-10{
+    padding: 10px;
 }
-.p-5{
-    padding: 5rem;
+.p-05{
+    padding: 0.5rem;
 }
 
-.mt-3{
-    margin-top: 3rem;
+.pt-06{
+    padding-top: 0.6rem;
 }
+
+.pt-20{
+    padding-top: 20px;
+}
+
+
+
 /* grid structure */
 /* container impostato a 1170px causa laptop */
 .container-fluid{
@@ -66,9 +75,6 @@
     margin: 0 -1rem;
 }
 /* tegola per evistare che il layout si sbalza */
-[class^="col"]{
-  padding: 0 1rem;
-}
 
 [class*="col-"] {
     flex: 0 0 auto;

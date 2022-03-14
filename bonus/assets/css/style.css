@@ -1,0 +1,21 @@
+
+
+
+.rich{
+    background-size: contain;
+    background-image: url(https://c.tenor.com/bbFzsZ-So-0AAAAd/husshere-tattari.gif);
+}
+.pyramid  [class^="col"]{
+       background-image: url(https://i.pinimg.com/originals/ba/62/45/ba624504f86336a81fb06c691624d4d4.jpg);
+}
+
+.pyramid{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://stickers.wiki/static/stickers/a859059006_by_x_ugi_1/file_961943.webp?ezimgfmt=rs:134x134/rscb1/ng:webp/ngcb1);
+}
+img{
+    height: 40px;
+    margin-left: -40px;
+    
+}

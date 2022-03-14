@@ -1,0 +1,15 @@
+
+
+.row > [class^="col"]{
+    background-color: rgb(20, 122, 255);
+    border: 1px solid white;
+}
+.col-6 > [class^="col"]{
+    background-color: rgb(94, 243, 119);
+    border: 1px solid rgb(20, 122, 255);
+
+}
+
+[class^="col"]{
+    color: white;
+}
